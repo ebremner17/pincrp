@@ -8,19 +8,23 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        
-    ],
+        "ebremner17/pinc_theme": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/pinc_theme.git"
+        }
+    },
     "require": {
         "composer/installers": "^2.0",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
-        "drush/drush": "^13.3"
+        "drush/drush": "^13.3",
+        "ebremner17/pinc_theme": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"

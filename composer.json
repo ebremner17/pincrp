@@ -35,8 +35,7 @@
         "drupal/responsive_menus": "2.0.x-dev",
         "drupal/schema_metatag": "^3.0",
         "drush/drush": "^13.3",
-        "ebremner17/pinc_theme": "1.0.x-dev",
-        "ebremner17/players_reserve": "1.0.x-dev"
+        "ebremner17/pinc_theme": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -17,9 +17,13 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/pinc_theme.git"
         },
-        "ebremner17/players_reserve": {
+        "ebremner17/pinc_cfg": {
             "type": "vcs",
-            "url": "https://github.com/ebremner17/players_reserve.git"
+            "url": "https://github.com/ebremner17/pinc_cfg.git"
+        },
+        "ebremner17/pinc_reserve": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/pinc_reserve.git"
         }
     },
     "require": {
@@ -39,6 +43,8 @@
         "drupal/responsive_menus": "2.0.x-dev",
         "drupal/schema_metatag": "^3.0",
         "drush/drush": "^13.3",
+        "ebremner17/pinc_cfg": "1.0.x-dev",
+        "ebremner17/pinc_reserve": "1.0.x-dev",
         "ebremner17/pinc_theme": "1.0.x-dev"
     },
     "conflict": {
